@@ -1,0 +1,71 @@
+Found 70 matches in preview.html:
+Line 0002 (scroll): <html lang="en" class="scroll-smooth">
+Line 0006 (scroll): // Clear URL hash on fresh browser navigation to prevent autocomplete/history from auto-scrolling
+Line 0007 (coach): // the user directly down to the Coach or Dashboard, ensuring they always land on the Hero section first.
+Line 0008 (location): if (window.location.hash && window.location.hash !== '#' && window.history.replaceState) {
+Line 0011 (history): window.history.replaceState(null, null, ' ');
+Line 0012 (scroll): window.scrollTo(0, 0);
+Line 0019 (coach): <meta name="description" content="Elevate your training with Fit Nova AI. Precision calorie calculations, automated nutrition diets, home/gym workouts, interactive AI chatbot coaching, and custom fitness dashboards.">
+Line 0057 (scroll): ::-webkit-scrollbar {
+Line 0060 (scroll): ::-webkit-scrollbar-track {
+Line 0063 (scroll): ::-webkit-scrollbar-thumb {
+Line 0068 (scroll): ::-webkit-scrollbar-thumb:hover {
+Line 0425 (scroll): const [scrolled, setScrolled] = useState(false);
+Line 0428 (scroll): const handleScroll = () => setScrolled(window.scrollY > 20);
+Line 0429 (scroll): window.addEventListener('scroll', handleScroll);
+Line 0430 (scroll): return () => window.removeEventListener('scroll', handleScroll);
+Line 0436 (chatbot): { name: 'Intelligence', href: '#chatbot' },
+Line 0444 (scroll): scrolled ? 'py-2 bg-[#0B0B0B]/80 backdrop-blur-md border-b border-white/5' : 'py-3.5 bg-transparent'
+Line 0543 (chatbot): <a href="#chatbot" className="w-full sm:w-auto text-center px-8 py-4 rounded-full border border-white/10 hover:border-white/30 hover:bg-white/5 font-semibold text-gray-300 transition-all duration-300">
+Line 0544 (coach): Try AI Coach
+Line 0563 (coach): <span className="text-[10px] text-gray-600 mt-1">Continuous coaching and support</span>
+Line 1212 (chatbot): // 8. Chatbot Component Helper Functions
+Line 1275 (coach): question: "Welcome to your digital physical diagnostic, champion. I am Coach Nova, your precision fitness intelligence. Before we construct your physical training split and dietary macros, we need to analyze your biometrics and goals. Ready to begin your transformation?",
+Line 1289 (location): key: 'location',
+Line 1334 (location): const { goal, level, location, diet, injuries, schedule, gender, age, weight, height } = profile;
+Line 1362 (location): if (location.includes("Gym")) {
+Line 1406 (location): **3. TRAINING SYSTEM (${location} - ${level})**
+Line 1424 (location): const location = profile.location || "Gym";
+Line 1431 (coach): if (q.includes('hello') || q.includes('hi ') || q.includes('hey') || q.includes('yo ') || q.includes('coach') || q.includes('greet')) {
+Line 1433 (location): text: `Let's lock in, champion. I'm here and fully dialed in. We are tracking towards **${goal}** under the **${location}** protocol. \n\nWhat biomechanical check or macro adaptation do you need right now? Give it to me straight. No negotiations, let's crush it.`,
+Line 1471 (location): if (location.includes("Gym")) {
+Line 1512 (location): text: `Understood, champion. As your coach, my directive is to guide you toward **${goal}** using our **${location}** program. \n\nWe are currently operating at the **${level}** level with a **${diet}** nutrition structure and managing **${injuries}** injury limits. \n\nTell me: what specific component of your workout form, daily meals, hydration, or recovery scheduling shall we optimize next?`,
+Line 1518 (scroll): const TypewriterText = ({ text, onComplete, scrollRef, isAlreadyTyped }) => {
+Line 1542 (scroll): // Auto-scroll-to-bottom on every word tick
+Line 1543 (scroll): if (scrollRef && scrollRef.current) {
+Line 1544 (scroll): scrollRef.current.scrollIntoView({ behavior: 'auto' });
+Line 1606 (chatbot): const Chatbot = () => {
+Line 1610 (location): location: '',
+Line 1626 (coach): text: "Fit Nova Diagnostic System online. I am Coach Nova, your precision fitness intelligence. Before we construct your physical training split and dietary macros, we need to analyze your biometrics and goals. Ready to begin your transformation?",
+Line 1644 (scroll): const scrollToBottom = () => {
+Line 1645 (scroll): messagesEndRef.current?.scrollIntoView({ behavior: 'smooth' });
+Line 1649 (scroll): scrollToBottom();
+Line 1817 (location): location: '',
+Line 1831 (coach): text: "Fit Nova Diagnostic System reset. I am Coach Nova. Let's establish your fitness coordinates. Ready to begin?",
+Line 1870 (coach): // Simulated human coaching delay
+Line 1885 (location): location: 'Gym (Full Barbell & Machine access)',
+Line 1900 (coach): botText = `Diagnostic bypassed, champion. I have calibrated your console with a default active biometric profile (28 yrs, 78kg, 175cm, Goal: Recomposition, 4 Days/Week Gym split). We are fully operational in direct coaching mode.
+Line 2046 (coach): : "Ask Coach Nova (e.g., 'What is my protein goal?' or 'Need workout tips')...";
+Line 2049 (chatbot): <section id="chatbot" className="py-12 sm:py-20 md:py-24 px-4 sm:px-6 relative select-none">
+Line 2059 (coach): Fit Nova Elite AI Coach
+Line 2062 (coach): Consult Coach Nova, your CSCS certified AI Strength & Transformation mentor, for hyper-personalized macros and structural workout adaptation.
+Line 2100 (coach): <h4 className="text-base font-bold font-outfit text-white">Coach Nova</h4>
+Line 2101 (coach): <p className="text-[10px] text-gray-400 font-semibold tracking-wide mt-1">CSCS Strength & Transformation Coach</p>
+Line 2117 (coach): <span>12+ Years Coaching Experience</span>
+Line 2137 (coach): <span className="text-[9px] text-gray-500 font-bold uppercase tracking-wider block mb-1">LIVE COACH STATUS</span>
+Line 2141 (coach): {isSpeaking ? 'Speaking guidance...' : isTyping ? 'AI Coach is thinking...' : 'Empathy & Focus Active'}
+Line 2181 (coach): Coach Nova <span className="w-1.5 h-1.5 rounded-full bg-[#00F0FF] animate-ping" />
+Line 2195 (coach): { id: 'profile', label: 'Coach' }
+Line 2270 (scroll): scrollRef={messagesEndRef}
+Line 2353 (location): { label: 'Location Node', value: profile.location },
+Line 2442 (coach): {/* Body Content 3: Coach Profile View */}
+Line 2467 (coach): <h4 className="text-base font-bold font-outfit text-white">Coach Nova</h4>
+Line 2468 (coach): <p className="text-[10px] text-gray-400 font-semibold tracking-wide mt-1">CSCS Strength & Transformation Coach</p>
+Line 2484 (coach): <span>12+ Years Coaching Experience</span>
+Line 2584 (location): { label: 'Location Node', value: profile.location },
+Line 2683 (coach): { name: 'Aravind Sharma', role: 'SaaS Founder', tag: '12-Week Transformation', stat: '-14kg Fat / +4kg Muscle', text: "The metabolic engine is scary accurate. I tracked my BMR, generated my vegetarian macro plan, and logged my daily workouts. Fit Nova AI completely replaced my expensive physical coach. Worth every single rupee.", avatar: 'https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&q=80&w=120&h=120' },
+Line 2684 (coach): { name: 'Sarah Jenkins', role: 'Marketing Lead', tag: '8-Week Shred', stat: '18% BF → 11% BF', text: "Being able to toggle between Home calisthenics and Gym workouts was a lifesaver. The Coach Nova chatbot motivated me on days I felt lazy, and the rest timers made my sessions highly efficient.", avatar: 'https://images.unsplash.com/photo-1494790108377-be9c29b29330?auto=format&fit=crop&q=80&w=120&h=120' },
+Line 2733 (coach): { name: 'Intelligence Node', price: '$49', desc: 'Our flagship neural fitness node, unlocking automated biometrics and virtual coaching.', features: ['Everything in Base Protocol', 'Coach Nova AI Chatbot Companion', 'Dynamic Macro Calculations', 'Interactive Rest Timers', 'Priority Response Time'], highlight: true, cta: 'INITIALIZE NODE' },
+Line 2788 (coach): { q: 'Is the Coach Nova AI chatbot customizable with real APIs?', a: 'Yes. While the chatbot includes a powerful built-in responsive engine, the project is structured to easily integrate real OpenAI or Gemini API keys in the code environment.' },
+Line 2839 (coach): <a href="#chatbot" className="hover:text-white transition-colors">Nova AI Coach</a>
+Line 2916 (chatbot): <Chatbot />

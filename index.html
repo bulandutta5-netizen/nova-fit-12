@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Fit Nova AI</title>
+    <!-- Immediately redirect to login/signup page -->
+    <script>
+      // If user already has a session, go to the app; otherwise login
+      const session = localStorage.getItem('fitnova_user');
+      if (session) {
+        window.location.replace('./preview.html');
+      } else {
+        window.location.replace('./login.html');
+      }
+    </script>
+  </head>
+  <body>
+    <!-- Redirecting... -->
+  </body>
+</html>
